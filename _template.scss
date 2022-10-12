@@ -1,0 +1,7 @@
+@mixin container-template($width, $height, $bg-color, ) {
+    width:$width;
+    height:$height;
+    background-color: $bg-color;
+
+    
+}

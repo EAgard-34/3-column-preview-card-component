@@ -1,0 +1,27 @@
+%btn{
+    border-radius: 25px;
+    padding: 15px;
+    border: none;
+    width: 150px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    &:hover{
+        color:$paragraph;
+    background-color: darkgreen;
+    }
+}
+
+.btn_sedan{
+    @extend %btn;
+    color:$bright-orange;
+}
+
+.btn_suvs{
+    @extend %btn;
+    color:$dark-cyan;
+}
+.btn_luxury{
+    @extend %btn;
+    color:$very-dark-cyan;
+}
